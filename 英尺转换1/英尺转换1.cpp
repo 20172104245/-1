@@ -12,7 +12,7 @@ private:
 public:
 	void sets(int a, double b)
 	{
-		for (int i = 0; b>12; i++)
+		for (int i = 0; b>=12; i++)
 		{
 			b = b - 12;
 			a++;
@@ -33,9 +33,9 @@ public:
 int main()
 {
 	High ot;
-	ot.sets(6, 40);
+	ot.sets(6, 12);
 	ot.display();
-	ot.meter(10.5);
+	ot.meter(15);
 	ot.display();
 	return 0;
 }
